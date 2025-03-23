@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" fill="none">
+  <!-- Background Shape -->
+  <path d="M350 50C350 77.6142 327.614 100 300 100H50C22.3858 100 0 122.386 0 150C0 177.614 22.3858 200 50 200H300C327.614 200 350 222.386 350 250C350 277.614 372.386 300 400 300V0H350V50Z" fill="#E5F4F0"/>
+
+  <!-- Building / Office -->
+  <rect x="100" y="80" width="200" height="150" rx="5" fill="#0D7A5F"/>
+  <rect x="120" y="110" width="40" height="30" rx="2" fill="#E5F4F0"/>
+  <rect x="180" y="110" width="40" height="30" rx="2" fill="#E5F4F0"/>
+  <rect x="240" y="110" width="40" height="30" rx="2" fill="#E5F4F0"/>
+  <rect x="120" y="160" width="40" height="30" rx="2" fill="#E5F4F0"/>
+  <rect x="180" y="160" width="40" height="30" rx="2" fill="#E5F4F0"/>
+  <rect x="240" y="160" width="40" height="30" rx="2" fill="#E5F4F0"/>
+  <rect x="180" y="210" width="40" height="20" rx="2" fill="#E5F4F0"/>
+
+  <!-- Network Lines -->
+  <circle cx="200" cy="60" r="20" fill="#0D7A5F"/>
+  <circle cx="200" cy="60" r="10" fill="#E5F4F0"/>
+  <path d="M200 80L200 120" stroke="#0D7A5F" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <circle cx="60" cy="130" r="15" fill="#0D7A5F"/>
+  <circle cx="60" cy="130" r="7" fill="#E5F4F0"/>
+  <path d="M75 130L100 130" stroke="#0D7A5F" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <circle cx="340" cy="130" r="15" fill="#0D7A5F"/>
+  <circle cx="340" cy="130" r="7" fill="#E5F4F0"/>
+  <path d="M325 130L300 130" stroke="#0D7A5F" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Decorative Elements -->
+  <circle cx="60" cy="60" r="5" fill="#0D7A5F"/>
+  <circle cx="340" cy="60" r="5" fill="#0D7A5F"/>
+  <circle cx="60" cy="240" r="5" fill="#0D7A5F"/>
+  <circle cx="340" cy="240" r="5" fill="#0D7A5F"/>
+</svg>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="World.Net - Надійний інтернет та ТБ провайдер" />
+  <title>World.Net - Інтернет та ТБ провайдер</title>
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a href="#" class="logo">World.Net</a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#" class="nav__link">Головна</a></li>
+              <li class="nav__item"><a href="#tariffs" class="nav__link">Тарифи</a></li>
+              <li class="nav__item"><a href="#about" class="nav__link">Про нас</a></li>
+              <li class="nav__item"><a href="#contacts" class="nav__link">Контакти</a></li>
+            </ul>
+          </nav>
+          <button class="button button--primary header__button">Підключитись</button>
+          <button class="burger" aria-label="Відкрити меню">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__content">
+              <h1 class="hero__title">Надійний інтернет та&nbsp;ТБ провайдер</h1>
+              <p class="hero__description">Швидкий інтернет та цифрове телебачення для дому і бізнесу</p>
+              <button class="button button--primary hero__button">Підключити зараз</button>
+            </div>
+            <div class="hero__image">
+              <img src="/src/images/hero.svg" alt="Wi-Fi і телебачення" class="hero__img">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <h2 class="section-title">Чому обирають нас</h2>
+          <div class="features__grid">
+            <div class="feature">
+              <div class="feature__icon">
+                <img src="/src/images/speed.svg" alt="Швидкість" class="feature__img">
+              </div>
+              <h3 class="feature__title">Висока швидкість</h3>
+              <p class="feature__text">Стабільне з'єднання до 1 Гбіт/с для комфортної роботи та розваг</p>
+            </div>
+            <div class="feature">
+              <div class="feature__icon">
+                <img src="/src/images/support.svg" alt="Підтримка" class="feature__img">
+              </div>
+              <h3 class="feature__title">Цілодобова підтримка</h3>
+              <p class="feature__text">Наші спеціалісти допоможуть вирішити будь-яку проблему 24/7</p>
+            </div>
+            <div class="feature">
+              <div class="feature__icon">
+                <img src="/src/images/price.svg" alt="Ціна" class="feature__img">
+              </div>
+              <h3 class="feature__title">Доступні ціни</h3>
+              <p class="feature__text">Вигідні тарифи для всіх категорій користувачів</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tariffs" id="tariffs">
+        <div class="container">
+          <h2 class="section-title">Тарифи</h2>
+          <div class="tariffs__grid">
+            <div class="tariff">
+              <h3 class="tariff__title">Базовий</h3>
+              <div class="tariff__price">від 199 ₴</div>
+              <ul class="tariff__list">
+                <li class="tariff__item">Швидкість до 100 Мбіт/с</li>
+                <li class="tariff__item">50 ТБ-каналів</li>
+                <li class="tariff__item">Wi-Fi роутер</li>
+              </ul>
+              <button class="button button--outline tariff__button">Детальніше</button>
+            </div>
+            <div class="tariff tariff--popular">
+              <div class="tariff__badge">Популярний</div>
+              <h3 class="tariff__title">Оптимальний</h3>
+              <div class="tariff__price">від 299 ₴</div>
+              <ul class="tariff__list">
+                <li class="tariff__item">Швидкість до 500 Мбіт/с</li>
+                <li class="tariff__item">150 ТБ-каналів</li>
+                <li class="tariff__item">Wi-Fi роутер</li>
+                <li class="tariff__item">Мобільне ТБ</li>
+              </ul>
+              <button class="button button--primary tariff__button">Детальніше</button>
+            </div>
+            <div class="tariff">
+              <h3 class="tariff__title">Максимальний</h3>
+              <div class="tariff__price">від 499 ₴</div>
+              <ul class="tariff__list">
+                <li class="tariff__item">Швидкість до 1 Гбіт/с</li>
+                <li class="tariff__item">250+ ТБ-каналів</li>
+                <li class="tariff__item">Wi-Fi 6 роутер</li>
+                <li class="tariff__item">Мобільне ТБ</li>
+                <li class="tariff__item">Антивірус</li>
+              </ul>
+              <button class="button button--outline tariff__button">Детальніше</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="about__image">
+              <img src="/src/images/about.svg" alt="Про нас" class="about__img">
+            </div>
+            <div class="about__content">
+              <h2 class="section-title section-title--left">Про компанію</h2>
+              <p class="about__text">World.Net — надійний провайдер послуг зв'язку з багаторічним досвідом роботи на ринку. Ми надаємо високошвидкісний інтернет та цифрове телебачення високої якості.</p>
+              <p class="about__text">Наша місія — зробити цифрові технології доступними для кожного, забезпечуючи безперебійний зв'язок та якісний сервіс.</p>
+              <ul class="about__stats">
+                <li class="about__stat">
+                  <span class="about__number">10+</span>
+                  <span class="about__stat-text">років на ринку</span>
+                </li>
+                <li class="about__stat">
+                  <span class="about__number">50+</span>
+                  <span class="about__stat-text">міст</span>
+                </li>
+                <li class="about__stat">
+                  <span class="about__number">100K+</span>
+                  <span class="about__stat-text">клієнтів</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <h2 class="section-title">Що кажуть наші клієнти</h2>
+          <div class="testimonials__slider">
+            <div class="testimonial">
+              <div class="testimonial__content">
+                <p class="testimonial__text">Користуюсь послугами World.Net вже 2 роки. Швидкість інтернету завжди стабільна, а при виникненні питань служба підтримки відповідає дуже швидко.</p>
+                <div class="testimonial__author">
+                  <div class="testimonial__name">Анна К.</div>
+                  <div class="testimonial__position">Приватний клієнт</div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="testimonial__content">
+                <p class="testimonial__text">Наш офіс підключений до World.Net більше 5 років. За весь час роботи не було жодного серйозного збою. Рекомендую як надійного бізнес-провайдера.</p>
+                <div class="testimonial__author">
+                  <div class="testimonial__name">Дмитро В.</div>
+                  <div class="testimonial__position">Керівник IT-відділу</div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="testimonial__content">
+                <p class="testimonial__text">Чудовий провайдер! Нещодавно перейшов на тариф "Оптимальний" і дуже задоволений. Інтернет літає, а кількість каналів вражає.</p>
+                <div class="testimonial__author">
+                  <div class="testimonial__name">Сергій Л.</div>
+                  <div class="testimonial__position">Приватний клієнт</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__arrows">
+            <button class="testimonials__arrow testimonials__arrow--prev" aria-label="Попередній відгук"></button>
+            <button class="testimonials__arrow testimonials__arrow--next" aria-label="Наступний відгук"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container">
+          <div class="cta__wrapper">
+            <h2 class="cta__title">Готові підключитись?</h2>
+            <p class="cta__text">Залиште заявку, і наш менеджер зв'яжеться з вами найближчим часом</p>
+            <form class="cta__form" id="connection-form">
+              <input type="text" class="input cta__input" placeholder="Ваше ім'я" required>
+              <input type="tel" class="input cta__input" placeholder="Ваш телефон" required>
+              <button type="submit" class="button button--primary cta__button">Залишити заявку</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__info">
+            <a href="#" class="logo logo--footer">World.Net</a>
+            <p class="footer__copyright">© 2025 World.Net. Усі права захищені</p>
+          </div>
+          <div class="footer__nav">
+            <div class="footer__column">
+              <h3 class="footer__title">Меню</h3>
+              <ul class="footer__list">
+                <li class="footer__item"><a href="#" class="footer__link">Головна</a></li>
+                <li class="footer__item"><a href="#tariffs" class="footer__link">Тарифи</a></li>
+                <li class="footer__item"><a href="#about" class="footer__link">Про нас</a></li>
+                <li class="footer__item"><a href="#contacts" class="footer__link">Контакти</a></li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Контакти</h3>
+              <ul class="footer__list">
+                <li class="footer__item"><a href="tel:88001234567" class="footer__link">0 (800) 123-45-67</a></li>
+                <li class="footer__item"><a href="mailto:info@worldnet.ua" class="footer__link">info@worldnet.ua</a></li>
+                <li class="footer__item footer__address">м. Київ, вул. Хрещатик, б. 123</li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Соціальні мережі</h3>
+              <div class="footer__social">
+                <a href="#" class="footer__social-link" aria-label="Facebook"></a>
+                <a href="#" class="footer__social-link" aria-label="Telegram"></a>
+                <a href="#" class="footer__social-link" aria-label="Instagram"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="modal" id="connection-modal">
+    <div class="modal__content">
+      <button class="modal__close" aria-label="Закрити"></button>
+      <h2 class="modal__title">Залишити заявку на підключення</h2>
+      <form class="modal__form" id="modal-form">
+        <input type="text" class="input modal__input" placeholder="Ваше ім'я" required>
+        <input type="tel" class="input modal__input" placeholder="Ваш телефон" required>
+        <input type="email" class="input modal__input" placeholder="Ваш e-mail" required>
+        <select class="input modal__select">
+          <option value="" disabled selected>Оберіть тариф</option>
+          <option value="basic">Базовий</option>
+          <option value="optimal">Оптимальний</option>
+          <option value="max">Максимальний</option>
+        </select>
+        <button type="submit" class="button button--primary modal__button">Надіслати</button>
+      </form>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
